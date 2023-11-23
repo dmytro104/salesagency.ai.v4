@@ -434,7 +434,7 @@ h3 {
     /* Navbar */
     .navbar {
         transition: display 1s ease-in-out;
-        /* position: fixed; */
+        position: fixed;
 	    width: 100%;
         align-items: flex-start;
         margin-bottom: -20px;
