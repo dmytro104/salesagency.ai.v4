@@ -704,6 +704,10 @@ h3 {
         font-size: 38px;
     }
 
+    #hero .hero-right .text-section img {
+        width: 18px;
+    }
+
     .navbar .nav-right {
         margin-left: -60%;
     }
