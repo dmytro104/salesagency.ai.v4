@@ -1,0 +1,724 @@
+/*Loading in fonts */
+@font-face {
+    font-family: 'AeonikFono-Medium';
+    src: url('Fonts/AeonikFono-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'AeonikFono-Regular';
+    src: url('Fonts/AeonikFono-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'AeonikPro-Medium';
+    src: url('Fonts/AeonikPro-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'AeonikPro-Regular';
+    src: url('Fonts/AeonikPro-Regular.otf') format('opentype');
+}
+
+/* Styling across multiple sections */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 194.94px;
+    height: 24px;
+}
+
+.button {
+    font-family: 'AeonikFono-Regular';
+    font-size: 16px;
+    background-color: #8A31EF;
+    text-decoration: none;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 4px;
+}
+
+h1 {
+    font-family: 'AeonikPro-Medium';
+    font-weight: 700;
+    font-size: 52px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+span {
+    color: #8A31EF;
+    position: relative;
+}
+
+#hero, #section-1, #section-2, #team-section, #section-3 {
+    padding: 96px 64px;
+    margin: 0px 50px;
+    display: flex;
+}
+
+.section-body {
+    font-family: 'AeonikPro-Regular';
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+
+.section {
+    background-color: #ECEAFF;
+}
+
+#section-1 .button img,
+#section-2 .button img {
+    height: 11px;
+}
+
+.section-start {
+    font-family: 'AeonikFono-Regular';
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.intro-text p {
+    line-height: 28px;
+}
+
+h3 {
+    font-family: 'AeonikPro-Regular';
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+.sap p {
+    font-family: 'AeonikPro-Regular';
+    font-size: 16px;
+    font-weight: 400;  
+    margin-bottom: 48px; 
+    line-height: 24px;
+}
+
+.dmytro p {
+    font-family: 'AeonikPro-Regular';
+    font-size: 16px;
+    font-weight: 400;  
+    margin-bottom: 0px; 
+    line-height: 24px;
+}
+
+.desc-box p {
+    font-family: 'AeonikPro-Regular';
+    font-size: 16px;
+    font-weight: 400;  
+    margin-bottom: 48px; 
+    line-height: 24px;
+}
+
+/* Section specific stylings */
+
+/* Navbar */
+.navbar {
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'AeonikPro-Regular';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar .nav-right a,
+.navbar .button-section a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 48px;
+}
+
+.navbar .nav-right .first-button {
+    display: none;
+}
+
+.navbar .nav-right .button img,
+.navbar .button-section .button img {
+    height: 13px;
+}
+
+.navbar .mobile-nav {
+    display: none;
+}
+
+.navbar .close {
+    display: none;
+}
+
+.navbar .close {
+    cursor: pointer;
+}
+
+.navbar .button-section {
+    display: none;
+}
+
+.navbar .nav-right .third-button {
+    display: none;
+}
+
+.navbar .bottom-nav {
+    color: white;
+    position: relative;
+    text-align: end;
+    display: none;
+    align-items: center;
+}
+
+.navbar .bottom-nav img {
+    margin-left: 6px;
+}
+
+/* Hero Section */
+#hero .hero-left img {
+    width: 100%;
+}
+
+#hero .hero-right {
+    width: 75%;
+}
+
+#hero .hero-right .text-section img {
+    position: absolute;
+}
+
+#hero .hero-right .hero-vid p {
+    font-family: 'AeonikFono-Regular';   
+    color: #8A31EF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#hero .button img {
+    height: 11px;
+}
+
+
+/* Section 1 */
+.left-section-1 {
+    width: 100%;
+}
+
+.right-section-1 {
+    width: 75%;
+}
+
+.second-video {
+    display: none;
+}
+
+/* Section 2 */
+.left-section-2 {
+    width: 75%;
+}
+
+.right-section-2 {
+    width: 100%;
+}
+
+.second-video-2 {
+    display: none;
+}
+
+/* Team Section */
+#team-section {
+    flex-direction: column;
+}
+
+.team-pics {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+    flex-wrap: wrap;
+}
+
+#team-section .section-body {
+    line-height: 32px;
+}
+
+.sap {
+    margin-right: 3rem;
+}
+
+.dmytro {
+    margin-left: 3rem;
+}
+
+.team-member img {
+    height: 325px;
+    width: 325px;
+}
+
+.team-member h4 {
+    font-family: 'AeonikFono-Regular';
+    margin-top: 2px;
+    margin-bottom: 0;
+    font-weight: 500;
+    color: #8A31EF;
+    font-size: 18px;
+}
+
+/* Section 3 */
+#section-3 {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#section-3 .grid-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px 0px;
+}
+
+#section-3 .grid-section .desc-box {
+    text-align: center;
+    padding: 20px;
+}
+
+#section-3 .grid-section .desc-box h3 {
+    margin-top: 12px;
+}
+
+.desc-box:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.desc-box:nth-child(2) {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#section-3 .grid-section .image-container {
+    display: flex;
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    text-align: center;
+    align-items: center;
+}
+
+.desc-box:nth-child(3) {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.desc-box:nth-child(4) {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#section-3 .sit-back {
+    max-width: 100%;
+    height: auto;
+}
+
+#section-3 .second-image {
+    display: none;
+}
+
+/* Footer section */
+.section-footer {
+    background-color: black;
+    color: white;
+    font-family: 'AeonikPro-Regular';
+}
+
+.section-footer .footer {
+    padding: 32px;
+    margin: 0 30px;
+}
+
+.footer .top-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.footer .left-footer p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer .right-footer {
+    text-align: end;
+}
+
+.footer .right-footer .title {
+    font-weight: 700;
+}
+
+.footer .right-footer p {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.footer .right-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer .bottom-footer {
+    border-top: 1px solid white;
+}
+
+.footer .bottom-footer p {
+    margin-top: 26px;
+}
+
+/* Screen size adjustments */
+@media (max-width: 1300px) {
+
+    /* Multiple sections */
+    #hero, #section-1, #section-2, #team-section, #section-3 {
+        margin: 0 30px;
+    }
+    
+    /* Hero */
+    #hero {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 30px;
+    }
+
+    .hero-left {
+        display: flex;
+        justify-content: center;
+    }
+
+    #hero .hero-left img {
+        width: 90%;
+        margin-bottom: 24px;
+    }
+
+     #hero .hero-right {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 1150px) {
+
+    /* Navbar */
+    .navbar {
+        transition: display 1s ease-in-out;
+        /* position: fixed; */
+	    width: 100%;
+        align-items: flex-start;
+        margin-bottom: -20px;
+    }
+    
+    .navbar .nav-right {
+        display: none;
+	    flex-direction: column;
+	    align-items: flex-end;
+        z-index: 1000;
+        margin-left: -35%;
+	}
+
+    .navbar .nav-right a {
+        margin-bottom: 24px;
+        font-size: 24px;
+    }
+
+    .navbar .nav-right .first-button {
+        display: inline;
+    }
+
+    .navbar .nav-right .second-button {
+        display: none;
+    }
+
+    .navbar .close {
+        display: inline;
+        margin-bottom: 48px;
+    }
+
+    .bottom-nav::before {
+        content: "";
+        position: absolute;
+        top: -22px;
+        right: 0px;
+        width: calc(100vw - 158px);
+        height: 1px; /* Adjust as needed */
+        background-color: white;
+    }
+
+    .navbar .bottom-nav {
+        font-family: 'AeonikFono-Regular';
+        font-weight: 400;
+        display: flex;
+        font-size: 18px;
+    }
+
+    .navbar .mobile-nav {
+        display: flex;
+    }
+
+    .navbar .mobile-nav img {
+        cursor: pointer;
+    }
+
+    .navbar .button-section {
+        display: flex;
+        position: fixed;
+        right: 150px;
+        top: 13px;
+    }
+
+    .navbar .active {
+        display: flex;
+    }
+
+}
+
+@media (max-width: 1050px) {
+
+    /* Multiple sections */
+    #section-1, #section-2 {
+        flex-direction: column;
+    }   
+
+    .section-body {
+        line-height: 24px;
+    }
+
+    #team-section .section-body {
+        line-height: 24px;
+    }
+
+    .intro-text {
+        text-align: start;
+        align-items: flex-start;
+    }
+
+    /* Section 1 */
+    .second-video {
+        display: flex;
+        margin-bottom: 36px;
+    }
+
+    .right-section-1 {
+        display: none;
+    }
+
+    /* Section 2 */
+    .left-section-2 {
+        display: none;
+    }
+
+    .second-video-2 {
+        display: flex;
+        margin-bottom: 36px;
+    }
+
+    /* Section 3 */
+    #section-3 .grid-section {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        column-gap: 40px;
+        row-gap: 0px;
+    }
+    
+    /* Team section */
+    .dmytro, .sap {
+        margin-left: 2rem;
+        margin-right: 2rem; 
+    }
+
+    /* Grid section */
+    #section-3 .grid-section .image-container {
+        display: none;
+    }
+
+    .desc-box:nth-child(1) {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .desc-box:nth-child(2) {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    .desc-box:nth-child(3) {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+    .desc-box:nth-child(4) {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    /* Section 3 */
+    #section-3 .grid-section .desc-box {
+        padding: 0px;
+    }
+
+    .desc-box p {
+        text-align: start;
+        margin-bottom: 16px;
+    }
+
+    #section-3 .second-image {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 48px;
+        margin-top: 16px;
+    }
+
+    #section-3 .second-image .sit-back-2 {
+        width: 60%;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    /* Multiple sections */
+    #hero, #section-1, #section-2, #team-section, #section-3 {
+        padding: 50px 25px;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    /* Navbar */
+
+    .navbar {
+        padding: 25px 25px;
+    }
+    .navbar .first-button {
+        display: none;
+    }
+
+    .navbar .nav-right .third-button {
+        display: flex;
+        font-size: 18px;
+        align-items: center;
+    }
+
+    .navbar .nav-right .third-button img {
+        margin-left: 6px;
+    }
+
+    .bottom-nav::before {
+        width: calc(100vw - 67px);
+    }
+
+    /* Hero */
+    #hero .hero-left img {
+        margin-top: 24px;
+        width: 100%;
+    }
+
+    /* Grid section */
+    #section-3 .section-body {
+        line-height: 24px;
+    }
+    
+    #section-3 .grid-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .desc-box p {
+        text-align: center;
+    }
+
+    /* Footer */
+    .footer .top-footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer .left-footer {
+        margin-top: 16px;
+    }
+
+    .footer .right-footer {
+        margin-top: 12px;
+        text-align: start;
+    }
+
+    .section-footer .footer {
+        margin: 0;
+    }
+}
+
+@media (max-width: 450px) {
+
+    #section-3 .second-image .sit-back-2 {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 438px) {
+
+    .navbar .nav-right {
+        margin-left: -55%;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    h1 {
+        font-size: 38px;
+    }
+
+    .navbar .nav-right {
+        margin-left: -60%;
+    }
+
+    .team-member img {
+        width: 280px;
+        height: 280px;
+    }
+
+}
+
+@media (max-width: 379px) {
+
+    .navbar .nav-right {
+        margin-left: -64%;
+    }
+
+}
