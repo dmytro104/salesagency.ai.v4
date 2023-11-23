@@ -698,7 +698,7 @@ h3 {
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 415px) {
 
     h1 {
         font-size: 38px;
@@ -707,6 +707,10 @@ h3 {
     #hero .hero-right .text-section img {
         width: 18px;
     }
+
+}
+
+@media (max-width: 400px) {
 
     .navbar .nav-right {
         margin-left: -60%;
