@@ -502,6 +502,10 @@ h3 {
         display: flex;
     }
 
+    /* New change */
+    #hero .hero-left img {
+        padding-top: 60px;
+    } 
 }
 
 @media (max-width: 1050px) {
