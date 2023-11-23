@@ -2,24 +2,22 @@
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(event) {
         event.preventDefault();
-  
+
         const targetId = this.getAttribute('href').substring(1);
         const targetElement = document.getElementById(targetId);
-  
+
         if (targetElement) {
             // Calculate the target element's position
-            const offset = targetElement.offsetTop - 30;
-            const duration = 800; // Adjust the duration as needed
-  
-            // Scroll smoothly to the target element
-            window.scrollTo({
-                top: offset,
+            const offset = targetElement.offsetTop - 100;
+
+            // Scroll smoothly to the target element using CSS
+            targetElement.scrollIntoView({
                 behavior: 'smooth',
-                duration: duration, // Some browsers may not support this
+                block: 'start', // Adjust as needed
             });
         }
     });
-});  
+}); 
 
 // For new nav bar on smaller screens
 const bar = document.querySelector('.bar');
