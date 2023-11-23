@@ -660,10 +660,15 @@ h3 {
     #section-3 .grid-section {
         display: flex;
         flex-direction: column;
+    	padding-bottom: 0px;
     }
 
     .desc-box p {
         text-align: center;
+    }
+
+    #section-3 .grid-section .desc-box {
+        margin-bottom: 36px;
     }
 
     /* Footer */
