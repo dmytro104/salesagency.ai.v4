@@ -471,7 +471,7 @@ h3 {
         position: absolute;
         top: -22px;
         right: 0px;
-        width: calc(100vw - 158px);
+        width: calc(100vw - 141px);
         height: 1px; /* Adjust as needed */
         background-color: white;
     }
@@ -506,6 +506,7 @@ h3 {
     #hero .hero-left img {
         padding-top: 60px;
     } 
+
 }
 
 @media (max-width: 1050px) {
@@ -643,7 +644,7 @@ h3 {
     }
 
     .bottom-nav::before {
-        width: calc(100vw - 57px);
+        width: calc(100vw - 40px);
     }
 
     /* Hero */
@@ -660,7 +661,7 @@ h3 {
     #section-3 .grid-section {
         display: flex;
         flex-direction: column;
-    	padding-bottom: 0px;
+        padding-bottom: 0px;
     }
 
     .desc-box p {
@@ -722,7 +723,7 @@ h3 {
 @media (max-width: 400px) {
 
     .navbar .nav-right {
-        margin-left: -59%;
+        margin-left: -55%;
     }
 
     .team-member img {
@@ -735,7 +736,7 @@ h3 {
 @media (max-width: 379px) {
 
     .navbar .nav-right {
-        margin-left: -64%;
+        margin-left: -60%;
     }
 
 }
